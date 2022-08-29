@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int num;
+    cout<<"Enter the number to be checked: ";
+    cin>>num;
+    if(num>=0)
+    cout<<num<<" is positive number";
+    else
+    cout<<num<<" is a negative number";
+    
+    return 0;
+    
+}
