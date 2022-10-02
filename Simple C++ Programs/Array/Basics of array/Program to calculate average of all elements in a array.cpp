@@ -10,7 +10,7 @@ int main()
      
      for(i=0;i<n;++i)
      {
-         cout<<i+1<<". Enter number: "
+         cout<<i+1<<". Enter number: ";
          cin>>num[i];
          sum +=num[i];
      }
